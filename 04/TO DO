@@ -1,0 +1,15 @@
+Future Enhancement in Assignment 04 - Texture Mapping
+
+1. Use GLUI interface for better interaction.
+
+2. Normalize Object Function is not working properly.
+
+3. GLU unproject function
+
+4. Zoom in with mouse scroll
+
+5. Simple Mirror Simulation
+
+6. SOIL image loader
+
+7. Spot Light Correction

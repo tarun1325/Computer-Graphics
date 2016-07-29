@@ -1,0 +1,48 @@
+/*
+	Author: 	Tarun Jain
+	Roll Number: 	MT2015120
+	Project: 	Assignment 04 - Lighting Models + Texture Mapping + Refining MVC
+	Email : 	Tarun.Jain@iiitb.org
+	File Name:	Read Me
+*/
+==============================================================================================================================
+Code is divided into following Files - Model.cpp, View.cpp, Controller.cpp alongwith their respective header files.
+(Third Party Library used to read .ply file - RPLY Library)
+(Third Party ImageLoader Library used to read '.bmp' images) 
+
+Code can accept any .ply file as object and any .bmp file at texture.
+
+Code is heavily commented in order to read and understand it.
+All the functionality which were asked in the Question were successfully implemented in C++ using OpenGL.
+===================================================================================================================================
+Reference/Source : 
+Redbook, Internet, www.videotutorialsrock.com, Interactive Computer Graphics by Ed. Angel, imageloader library
+===================================================================================================================================
+Compile and Execution : 
+Just type 'make' in the terminal to run everything.
+===================================================================================================================================
+===================================================================================================================================
+Input/Output:
+
+Press following keys on keyboard
+'b' / 'B' - Enable or Disable Bounding Box
+'t' / 'T' - Enable or Disable Texture
+'a' / 'A' - Enable or Disable Reference Axis
+'s' / 'S' - Enable or Disable Spot Light
+'h' / 'H' - Enable or Disable Head Light
+'l' / 'L' - Enable or Disable Lighting
+'g' / 'G' - Enable Good Lighting
+
+Press following Special key on Keyboard
+
+'Left Arrow Key' 	- To Translate in -X axis
+'Right Arrow Key' 	- To Translate in +X axis
+'Up Arrow Key' 		- To Translate in +Y axis
+'Down Arrow Key 	- To Translate in -Y axis
+
+Press following Mouse Button for Moving Camera
+- Click Left Mouse button down and drag the mouse
+
+Rotation of the model alongwith bounding box is done using trackball or mouse left click with drag.
+===================================================================================================================================
+
