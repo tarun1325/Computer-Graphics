@@ -1,0 +1,47 @@
+/*
+	Author: Tarun Jain
+	Roll Number: MT2015120
+	Title: Assignment 1 Computer Graphics: 2D Rendering.
+	File: Read Me.
+*/
+===================================================================================================================================
+Code is divided into 4 Files Model.cpp, View.cpp, Controller.cpp, Header.h
+
+Model.cpp - contains main, removePoint, recordPoint, HandleResize functions and other functions which are used to compute co-ordinates.
+View.cpp - conatains drawScene and redrawPoints function for display purpose.
+Controller.cpp - contains drawLagrange, drawBeizer, handleKeypress, onMouseClick functions.
+Header.h - contains all the header files, global variables, function prototypes.
+
+Code is heavily commented in order to read and understand it.
+All the functionality which were asked in the Question were successfully implemented in C++ using OpenGL.
+===================================================================================================================================
+Reference/Source : 
+Redbook, Internet, www.videotutorialsrock.com
+===================================================================================================================================
+Compile and Execution : 
+Just type 'make' in the terminal to everything.
+===================================================================================================================================
+Noticable Defects observed:
+If you zoom out again and again the curve is reversed after becoming a pixel
+===================================================================================================================================
+Input/Output:
+
+Press 'v' - To Enable Adding points
+
+Left mouse Button - to start adding points by clicking left mouse button
+
+Press 'c' - To Enable Deleting points
+
+Right mouse Button - to delete the selected point by clicking right mouse button
+
+'+' - Zoom In
+'-' - Zoom Out
+
+Press 'L' - Draw Lagrange Curve
+Press 'b' - Draw Beizer Curve
+
+Press 'a'/'w'/'s'/'d' - to Shift everything left/up/down/right
+
+Press 'l'/'r' - to rotate along z-axis in clockwise/anti-clockwise direction
+===================================================================================================================================
+

@@ -1,0 +1,13 @@
+/*
+	Author: Tarun Jain
+	Roll Number: MT2015120
+	Title: Assignment 1 Computer Graphics: 2D Rendering.
+	File: Summary.
+*/
+This assignment gave me a good understanding of the 2D Graphics and interpolating points.
+
+- By this Code, you can Draw Lagrange and Beizer Curve for any no. of points.
+- Zoom In and Zoom out Function is also provided.
+- Rotation around the z-axis is implemented.
+- Shifting of Curve by a particular distance is implemented.
+- At any point of time, you can add or remove a point from the screen.
